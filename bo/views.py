@@ -23,4 +23,4 @@ def add8(request):
 def add9(request):
     return render(request, 'add9.html', {})
 def add10(request):
-    return render(request, 'add10html', {})                                    
+    return render(request, 'add10.html', {})                                    
