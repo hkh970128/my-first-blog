@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>분석사이트</title>
+        <title>로딩창</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Bootstrap icons-->
@@ -33,14 +33,17 @@
             <div class="container px-lg-5">
                 <div class="p-4 p-lg-5 bg-light rounded-3 text-center">
                     <div class="m-4 m-lg-5">
-                         <img src ="{% static 'han/image/AI-3.jpg' %}" width="300" height="300"  > 
-                        <h1 class="display-5 fw-bold">분석하기 !</h1>
-                        <p class="fs-4">분석하고싶냐?? 그럼 눌러 시발년앙</p>
+                         
+                        <h1 class="display-5 fw-bold"> 당신은 어떤 감정을 가지고 있을까요?</h1>
                         
-                            <form action='text2'>
-                                <input type="submit" class="btn btn-primary btn-lg"    value="글로 알아보기"    width="100" height="100" />
-                              </form>
-                    
+                            <textarea name="comments" rows="10" cols="80">분석하고 싶은 글을 넣으세요</textarea>		   
+                                <form action='text3'>
+                                    <input type="submit" class="btn btn-primary btn-lg"    value="분석하기"    width="100" height="100" />
+                                </form>
+           
+       
+                        
+                            
                     </div>
                 </div>
             </div>
